@@ -1,0 +1,15 @@
+{
+  "name": "murdoku",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Juego de lógica estilo Murdoku. La app no tiene dependencias; estas son solo de desarrollo.",
+  "scripts": {
+    "test": "node --test src/",
+    "lint": "eslint .",
+    "e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "eslint": "10.14.0"
+  }
+}
